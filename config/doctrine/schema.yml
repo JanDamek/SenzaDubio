@@ -1,0 +1,109 @@
+Setting:
+  actAs: 
+    Timestampable:
+    I18n:
+      fields: [homepage, sluzby, klienti, kontakt, animace, partneri, kon_form, zadej_pop, poptavka, odeslat, on_line_pop, mno_dal, mobil, ulice, mesto, tel, email, stat]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    SiteName: string(50)    
+    homepage: string(15)
+    sluzby: string(15)
+    klienti: string(15)
+    kontakt: string(15)
+    animace: string(255)
+    partneri: string(15)
+    kon_form: string(30)
+    zadej_pop: string(30)
+    poptavka: string(50)
+    odeslat: string(255)
+    on_line_pop: string(255)
+    mno_dal: string(50)
+    email: string(50)
+    tel: string(50)
+    mobil: string(50)
+    pracovni_doba: clob
+    ulice: string(100)
+    mesto: string(100)
+    stat: string(100)
+    web_adr: string(55)
+    ga_code: string(100)
+    google_overeni: string(255)
+  
+Sluzby:  
+  actAs:
+    Timestampable:
+    I18n:
+      fields: [title, popis]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    info_list: string(50)
+    name: string(50)
+    title: string(255)
+    popis: clob
+    
+Stranky:
+  actAs:
+    Timestampable:
+    I18n:
+      fields: [title, str_title, perex, popis, keywords, description]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: string(50)
+    slug: string(50)
+    title: string(100)
+    str_title: string(100)
+    publikovat: boolean
+    perex: clob
+    gallery_cs_id: integer
+    gallery_de_id: integer
+    gallery_it_id: integer
+    gallery_en_id: integer
+    popis: clob
+    keywords: string(255)
+    description: string(255)
+  relations:
+    gallery_cs:
+      local: gallery_cs_id
+      foreign: id
+      class: Gallery
+    gallery_de:
+      local: gallery_de_id
+      foreign: id
+      class: Gallery
+    gallery_it:
+      local: gallery_it_id
+      foreign: id
+      class: Gallery
+    gallery_en:
+      local: gallery_en_id
+      foreign: id
+      class: Gallery
+      
+Klienti:      
+  actAs:
+    Timestampable:
+    I18n:
+      fields: [title, popis]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: string(50)
+    slug: string(50)
+    title: string(100)
+    publikovat: boolean
+    popis: clob
+    img_gray: string(255)
+    img_hover: string(255)
+    url: string(255)
+      
+Odkazy:      
+  actAs:
+    Timestampable:
+    I18n:
+      fields: [title, popis]
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: string(50)
+    slug: string(50)
+    title: string(100)
+    publikovat: boolean
+    popis: clob

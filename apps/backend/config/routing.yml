@@ -1,0 +1,98 @@
+odkazy:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                odkazy
+    module:               odkazy
+    prefix_path:          /odkazy
+    column:               id
+    with_wildcard_routes: true
+
+klienti:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                klienti
+    module:               klienti
+    prefix_path:          /klienti
+    column:               id
+    with_wildcard_routes: true
+
+sluzby:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sluzby
+    module:               sluzby
+    prefix_path:          /sluzby
+    column:               id
+    with_wildcard_routes: true
+
+setting-lucene-reindex:
+  url:  /setting/reindex
+  param: { module: setting, action: reindex }
+
+setting-clearcache:
+  url:  /setting/clearcache
+  param: { module: setting, action: remove }
+
+stranky:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                stranky
+    module:               stranky
+    prefix_path:          /clanky
+    column:               id
+    with_wildcard_routes: true
+
+setting:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                setting
+    module:               setting
+    prefix_path:          /setting
+    column:               id
+    with_wildcard_routes: true
+
+gallery:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Gallery
+    module:               gallery
+    prefix_path:          /gallery
+    column:               id
+    with_wildcard_routes: true
+
+gallery_sort_images:
+  url:  /gallery/:id/sort-images
+  param: { module: gallery, action: sortImages }
+
+gallery_delete_image:
+  url: /gallery/:id/delete
+  param: { module: gallery, action: deleteImage }
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: stranky, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

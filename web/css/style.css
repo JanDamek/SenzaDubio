@@ -1,0 +1,418 @@
+/*
+Theme Name: Name
+Theme URI: http://webovky.cz/
+Description: Vzhled pro
+Version: 1.0
+Author: Mcihal Kořínek
+Author URI: http://korinekmichal.cz/
+Tags: web, css, xhtml, javascript
+*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body {
+    font-family: arial;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #212121;
+    background: url(pic/bg.jpg)  repeat-x;  
+}
+
+a {
+    color:#000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ce0610;
+    text-decoration: none;
+}
+
+.cistic {
+    clear: both;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/*   PAGE   */
+#page {
+    margin: 0px auto;
+    width: 900px;
+    text-align: justify;
+}
+
+
+/*   HEADER   */
+#header {
+    background: url(pic/header.png) no-repeat;
+    width: 900px;
+    height: 198px;
+}
+#logo {
+    background: url(pic/logo.png) no-repeat;
+    width: 356px;
+    height: 82px;
+    display: block;
+    margin: 60px 0px 0px 30px;
+    float: left;
+}
+#logo span {
+    margin: 80px 0px 0px 190px;
+    font-size: 13px;
+    float: left;
+}
+#logo a  {
+    color: #000;
+}
+#logo a:hover  {
+    color: #ce0610;
+    text-decoration: none;
+}
+
+#butkontakt{
+    margin-right: 0px !important;
+}
+
+#menu {
+    list-style: none;
+    margin: 67px 0px 0px auto;
+    padding: 0px;
+    float: right;
+    text-align: right;
+    font-size: 105%;
+    width: 395px;
+    position: relative;
+    right: 140px;
+}
+#menu2 {
+    list-style: none;
+    margin: 67px 0px 0px auto;
+    padding: 0px;
+    float: right;
+    text-align: left;
+    font-size: 105%;
+    width: 60px;    
+    position: relative;
+    left: 300px;
+}
+#menu2 li{
+    margin: 0px 35px 0px 0px;
+    padding: 0px;
+    float: left;
+    font-weight: bold;    
+        font-size: 105%;
+}
+#menu li {
+    margin: 0px 35px 0px 0px;
+    padding: 0px;
+    float: right;
+    font-weight: bold;
+}
+.butostatni a {
+    color: #000;
+    text-decoration: none;
+    padding: 30px 0px 0px 0px;
+}
+.butostatni a:hover {
+    color: #ce0610;
+    text-decoration: none;
+    background: url(pic/menu_decor.png) center top no-repeat;	
+}
+
+#butkontakt a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 0px 0px 0px;
+}
+#butkontakt a:hover {
+    color: #000;
+    text-decoration: none;
+    background: url(pic/menu_decor_white.png) center top no-repeat;	
+}
+
+
+/*   CONTENT   */
+#content {
+    width: 900px;
+    float: left;
+}
+
+#content .prava {
+    width: 430px;
+    margin: 0px 0px 0px 20px;
+    float: left;
+}
+#content .prava img {
+    margin: 0px;
+    padding: 0px;
+}
+#content .leva {
+    width: 430px;
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+#content h1 {
+    background: url(pic/menu_decor.png) 0px 20px no-repeat;
+    padding: 17px 0px 25px 35px;
+    width: 900px;
+    font-size: 19px;
+}
+
+#content p {
+    float: left;
+}
+
+#content strong {
+    font-weight: bold;
+}
+
+.contact {
+    margin: 0px 0px 0px 35px;
+} 
+
+.telefon {
+    background: url(pic/telefon.jpg) no-repeat;
+    padding: 0px 0px 0px 50px;
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 25px;
+    float: left;
+}
+
+.email {
+    background: url(pic/obalka.jpg) no-repeat;
+    width: 300px;
+    padding: 0px 0px 0px 50px;
+    margin: 20px 0px 0px 0px;
+    height: 27px;
+    float: left;
+
+}
+
+
+.sluzba {
+    float: left;
+    margin: 0px 0px 40px 0px;
+    height: 170px;
+}
+.sluzba h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ce0610;
+    text-align: left;
+    margin: 0px 0px 10px 0px;
+}
+.sluzba p {
+    color: #696969;
+    margin: 0px 0px 20px 0px;
+    font-size: 12px; 
+}
+.poptavka {
+    color: #fff;
+    background: #bfbfbf;
+    padding: 5px 30px 5px 30px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;  
+}
+.sluzba a {
+    color: #fff;
+    text-decoration: none; 
+}
+.sluzba a:hover {
+    text-decoration: none;
+    background-color: #ce0610!important;
+    color: #fff; 
+}
+.stred {
+    color: #ce0610;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 60px 0px 0px 80px;
+    float: left; 
+}
+
+.kont , .textove {
+    color: #5c5c5c;
+    background: #dcdcdc;
+    float: left;
+    width: 330px;
+    border: none;
+    padding: 7px 20px 7px 20px;
+    margin: 0px 0px 10px 0px;
+}
+.textove {
+    height: 150px;
+}
+.odeslat {
+    color: #fff;
+    background: #ce0610;
+    padding: 5px 30px 5px 30px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+}
+
+
+/*   FOOTER   */
+#footer {
+    background: url(pic/footer.png) no-repeat;
+    width: 900px;
+    height: 67px;
+    margin: 50px 0px 0px 0px;  
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.odkaz {
+    padding-top: 10px;
+    margin: 0px 0px 0px 400px;
+    font-weight: bold;
+    height: 30px;
+    float: left;
+    color: #fff; 
+}
+.gotop {
+    background: url(pic/gotop.jpg) no-repeat;
+    width: 37px;
+    height: 26px;
+    display: block;
+    float: right;
+    margin: 10px 60px 0px 0px;  
+}
+
+.jazyky{
+    float: right;
+    color: white;
+    margin-right: 30px;
+    font-size: 90%;
+}
+.jazyky a{
+    color: white;
+}
+
+#slider {
+  width: 225px;
+  position: relative;
+  left: 90px;
+}
+#slider .top {
+  background: url(/css/pic/top.jpg) top center no-repeat;
+  width: 200px;
+  height: 20px;
+  display: block;
+  margin: 0px 0px 15px 0px;
+  cursor: pointer;
+}
+
+#slider .bottom {
+  background: url(/css/pic/bottom.jpg) top center no-repeat;
+  width: 200px;
+  height: 20px;
+  display: block;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.slides {
+    width: 215px;
+    height: 345px;
+    overflow: hidden;
+}
+.slid {
+    padding-top: 5px;
+}
+.slid img {
+  width: 190px;
+  height: 100px;
+  border: 5px solid #747474; 
+  margin: 0px 0px 15px 0px;
+}
+.slid img:hover {
+  border: 5px solid #da000b!important; 
+}
+.fog-bottom {
+  background: url(/css/pic/fog_bottom.png) no-repeat;
+  width: 200px;
+  height: 110px;
+  position: absolute;
+  top: 270px;  
+}
+.fog-top {
+  background: url(/css/pic/fog_top.png) no-repeat;
+  width: 200px;
+  height: 110px;
+  position: absolute;
+}
+.slid_free {
+    width: 200px;
+    height: 113px;
+}

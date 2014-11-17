@@ -1,0 +1,103 @@
+
+body{
+    font-family: "Arial", Arial;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bgr.png) center repeat-y;
+    width: auto;
+    font-size: 14px;
+    color: #A6A6A6;
+}
+
+.container_pos{
+    width: 920px;
+    margin: 0 auto;
+    height: 10px;
+}
+
+.container .header{
+    height: 182px;
+    background: url('../images/top.png');
+}
+.container .header a{
+    color: white;
+    font-size: 0px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    width: 300px;
+    height: 75px;
+}
+
+.content {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    width: 919px;
+    float: left;
+    min-height: 60px;
+    background: white;
+    color: black;
+    padding-top: 65px;
+    margin-left: 1px;
+}
+
+.content .content_inside{
+    margin: 10px;
+}
+
+.nav {
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    width: 920px;
+    height: 55px;
+    background: url(../images/menus.png);
+}
+
+.nav a{
+    position: relative;
+    top: 6px;
+    font-size: 0px;
+    color: white;
+    text-decoration: none;
+    height: 32px;
+    display: inline-block;
+}
+
+.nav a.onas {
+    left: 6px;
+    width: 224px;
+}
+.nav a.sluzby {
+    left: 6px;
+    width: 224px;
+}
+.nav a.reference {
+    left: 7px;
+    width: 224px;
+}
+.nav a.kontakt {
+    left: 7px;
+    width: 224px;
+}
+
+.footer {
+    top: 0px;
+    position: relative;
+    height: 138px;
+    clear: both;
+    background-image: url(../images/footer.png);
+    background-position: center;
+}
+
+.footer hr{
+    margin-left: 6px;
+    margin-right: 6px;
+    border: none;
+    border-bottom: #33ffff solid 1px;
+}

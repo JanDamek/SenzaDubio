@@ -1,0 +1,46 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           klienti
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             true
+    singular:              ~
+    plural:                ~
+    route_prefix:          klienti
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name:  
+          label: Jméno klienta pro SEO
+        publikovat:  
+          label: Publikovat
+        img_gray:  
+          label: Obrázek neaktivní
+        img_hover:  
+          label: Obrázek aktivní
+        url: 
+          label: URL adresa klienta
+        title:  
+          label: Jméno klienta
+        popis:  
+          label: Popis klienta
+        slug:
+          label: adresa odkazu HTML
+      list:   
+        display: [=name, publikovat, url, slug]
+        title: Klienti
+      filter:  
+        display: [name, url, slug]
+      form:    ~
+      edit:    
+        display:
+          "Základní data": [name, slug, publikovat, img_gray, img_hover, url]
+          "Česky": [cs]
+          Anglicky: [en]
+          Německy : [de]
+          Italsky: [it]
+      new:     ~

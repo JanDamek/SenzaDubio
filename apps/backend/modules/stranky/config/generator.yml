@@ -1,0 +1,49 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           stranky
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             true
+    singular:              ~
+    plural:                ~
+    route_prefix:          stranky
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name: 
+          label: Název 
+        publikovat:  
+          label: Publikovat
+        gallery_id:  
+          label: Galerie
+        title: 
+          label: Titulek pro SEO
+        str_title: 
+          label: Titulek na stránce
+        perex:  
+          label: Perex
+        popis:  
+          label: Popis
+        keywords:  
+          label: Klíčová slova pro SEO
+        description:  
+          label: POpis stránky pro SEO
+        slug:
+          label: adresa odkazu HTML
+      list:    
+        display: [=name, publikovat, slug]
+      filter:  
+        display: [name, slug]
+      form:    ~
+      edit:    
+        display: 
+          "Základní data": [name, slug, publikovat]
+          "Česky": [cs, gallery_cs_id]
+          Anglicky: [en, gallery_en_id]
+          Německy : [de, gallery_de_id]
+          Italsky: [it, gallery_it_id]        
+      new:     ~

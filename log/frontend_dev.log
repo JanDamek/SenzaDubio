@@ -1,0 +1,921 @@
+Jul 29 01:37:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /stranky/3/edit with parameters array (  'module' => 'stranky',  'action' => '3',  'edit' => true,)
+Jul 29 01:37:57 symfony [info] {sfFrontWebController} Action "stranky/3" does not exist
+Jul 29 01:37:57 symfony [err] {sfError404Exception} Action "stranky/3" does not exist.
+Jul 29 01:37:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jul 29 01:37:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 29 01:37:57 symfony [info] {sfWebDebugLogger} Configuration 254.36 ms (6)
+Jul 29 01:37:57 symfony [info] {sfWebDebugLogger} Factories 305.17 ms (1)
+Jul 29 01:38:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 29 01:38:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 29 01:38:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 29 01:38:05 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 29 01:38:05 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/lib/vendor/Symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 29 01:38:05 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/lib/vendor/Symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 29 01:38:05 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/lib/vendor/Symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 29 01:38:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 29 01:38:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 29 01:38:05 symfony [info] {sfWebDebugLogger} Configuration 46.24 ms (10)
+Jul 29 01:38:05 symfony [info] {sfWebDebugLogger} Factories 54.26 ms (1)
+Jul 29 01:38:05 symfony [info] {sfWebDebugLogger} Action "default/index" 0.44 ms (1)
+Jul 29 01:38:05 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 27.58 ms (1)
+Jul 29 01:38:05 symfony [info] {sfWebResponse} Send content (32975 o)
+Aug 01 11:33:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:33:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:33:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:33:28 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:33:28 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:33:28 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:33:28 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:33:28 symfony [warning] {sfWebDebugLogger}  Warning at /home/administrator/senzadubbio/lib/helper/NavigationHelper.php on line 39 (The magic method __call() must have public visibility and cannot be static)
+Aug 01 11:33:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:33:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:33:28 symfony [err] {Doctrine_Exception} Couldn't find class Zajezdy
+Aug 01 11:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 01 11:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:33:29 symfony [info] {sfWebDebugLogger} Configuration 841.36 ms (10)
+Aug 01 11:33:29 symfony [info] {sfWebDebugLogger} Factories 445.70 ms (1)
+Aug 01 11:33:29 symfony [info] {sfWebDebugLogger} Action "homepage/index" 3.74 ms (1)
+Aug 01 11:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 748.01 ms (1)
+Aug 01 11:33:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:34:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:34:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:34:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:34:50 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:34:50 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:34:50 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:34:50 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:34:50 symfony [warning] {sfWebDebugLogger}  Warning at /home/administrator/senzadubbio/lib/helper/NavigationHelper.php on line 39 (The magic method __call() must have public visibility and cannot be static)
+Aug 01 11:34:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:34:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:34:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 01 11:34:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:34:50 symfony [info] {sfWebDebugLogger} Configuration 5.47 ms (9)
+Aug 01 11:34:50 symfony [info] {sfWebDebugLogger} Factories 54.05 ms (1)
+Aug 01 11:34:50 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.52 ms (1)
+Aug 01 11:34:50 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 111.02 ms (1)
+Aug 01 11:34:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:34:50 symfony [info] {sfWebResponse} Send content (41868 o)
+Aug 01 11:35:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:35:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:35:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:35:19 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:35:19 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:35:19 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:35:19 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:35:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:35:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:35:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 01 11:35:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:35:19 symfony [info] {sfWebDebugLogger} Configuration 6.85 ms (9)
+Aug 01 11:35:19 symfony [info] {sfWebDebugLogger} Factories 56.55 ms (1)
+Aug 01 11:35:19 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.54 ms (1)
+Aug 01 11:35:19 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 109.11 ms (1)
+Aug 01 11:35:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:35:19 symfony [info] {sfWebResponse} Send content (35357 o)
+Aug 01 11:36:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:36:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:36:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:36:29 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:36:29 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:36:29 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:36:29 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:36:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:36:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:36:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 01 11:36:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:36:29 symfony [info] {sfWebDebugLogger} Configuration 5.17 ms (9)
+Aug 01 11:36:29 symfony [info] {sfWebDebugLogger} Factories 55.00 ms (1)
+Aug 01 11:36:29 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 01 11:36:29 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 107.43 ms (1)
+Aug 01 11:36:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:36:29 symfony [info] {sfWebResponse} Send content (35452 o)
+Aug 01 11:36:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:36:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:36:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:36:51 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:36:51 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:36:51 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:36:51 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:36:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:36:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:36:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 01 11:36:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:36:51 symfony [info] {sfWebDebugLogger} Configuration 5.33 ms (9)
+Aug 01 11:36:51 symfony [info] {sfWebDebugLogger} Factories 78.90 ms (1)
+Aug 01 11:36:51 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.39 ms (1)
+Aug 01 11:36:51 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 147.60 ms (1)
+Aug 01 11:36:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:36:51 symfony [info] {sfWebResponse} Send content (35440 o)
+Aug 01 11:37:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:37:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:37:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:37:45 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:37:45 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:37:45 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:37:45 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:37:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:37:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:37:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 01 11:37:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:37:45 symfony [info] {sfWebDebugLogger} Configuration 26.04 ms (10)
+Aug 01 11:37:45 symfony [info] {sfWebDebugLogger} Factories 56.41 ms (1)
+Aug 01 11:37:45 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 01 11:37:45 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 129.29 ms (1)
+Aug 01 11:37:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:37:45 symfony [info] {sfWebResponse} Send content (35446 o)
+Aug 01 11:38:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 01 11:38:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 01 11:38:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 01 11:38:32 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 01 11:38:32 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 01 11:38:32 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:38:32 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 01 11:38:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 01 11:38:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 01 11:38:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 01 11:38:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 01 11:38:32 symfony [info] {sfWebDebugLogger} Configuration 5.18 ms (9)
+Aug 01 11:38:32 symfony [info] {sfWebDebugLogger} Factories 53.45 ms (1)
+Aug 01 11:38:32 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 01 11:38:32 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 106.95 ms (1)
+Aug 01 11:38:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 01 11:38:33 symfony [info] {sfWebResponse} Send content (35444 o)
+Aug 02 01:41:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:41:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:41:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:41:13 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:41:13 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:41:13 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:41:13 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:41:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:41:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:41:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:41:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:41:13 symfony [info] {sfWebDebugLogger} Configuration 27.92 ms (9)
+Aug 02 01:41:13 symfony [info] {sfWebDebugLogger} Factories 327.88 ms (1)
+Aug 02 01:41:13 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.55 ms (1)
+Aug 02 01:41:13 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 242.41 ms (1)
+Aug 02 01:41:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:41:13 symfony [info] {sfWebResponse} Send content (35224 o)
+Aug 02 01:42:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:42:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:42:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:42:50 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:42:50 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:42:50 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:42:50 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:42:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:42:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:42:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:42:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:42:50 symfony [info] {sfWebDebugLogger} Configuration 5.16 ms (9)
+Aug 02 01:42:50 symfony [info] {sfWebDebugLogger} Factories 59.53 ms (1)
+Aug 02 01:42:50 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 01:42:50 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 117.28 ms (1)
+Aug 02 01:42:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:42:50 symfony [info] {sfWebResponse} Send content (35419 o)
+Aug 02 01:43:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:43:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:43:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:43:35 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:43:35 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:43:35 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:43:35 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:43:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:43:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:43:36 symfony [info] {sfWebDebugLogger} Configuration 5.65 ms (9)
+Aug 02 01:43:36 symfony [info] {sfWebDebugLogger} Factories 83.58 ms (1)
+Aug 02 01:43:36 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.61 ms (1)
+Aug 02 01:43:36 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 153.42 ms (1)
+Aug 02 01:43:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:43:36 symfony [info] {sfWebResponse} Send content (35419 o)
+Aug 02 01:44:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:44:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:44:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:44:13 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:44:13 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:44:13 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:44:13 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:44:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:44:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:44:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:44:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:44:13 symfony [info] {sfWebDebugLogger} Configuration 5.29 ms (9)
+Aug 02 01:44:13 symfony [info] {sfWebDebugLogger} Factories 59.59 ms (1)
+Aug 02 01:44:13 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.39 ms (1)
+Aug 02 01:44:13 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 117.12 ms (1)
+Aug 02 01:44:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:44:14 symfony [info] {sfWebResponse} Send content (35419 o)
+Aug 02 01:46:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:46:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:46:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:46:20 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:46:20 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:46:20 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:46:20 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:46:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:46:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:46:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:46:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:46:20 symfony [info] {sfWebDebugLogger} Configuration 5.23 ms (9)
+Aug 02 01:46:20 symfony [info] {sfWebDebugLogger} Factories 57.86 ms (1)
+Aug 02 01:46:20 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 01:46:20 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 123.00 ms (1)
+Aug 02 01:46:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:46:20 symfony [info] {sfWebResponse} Send content (35419 o)
+Aug 02 01:48:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:48:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:48:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:48:47 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:48:47 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:48:47 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:48:47 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:48:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:48:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:48:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:48:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:48:47 symfony [info] {sfWebDebugLogger} Configuration 5.37 ms (9)
+Aug 02 01:48:47 symfony [info] {sfWebDebugLogger} Factories 59.70 ms (1)
+Aug 02 01:48:47 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 01:48:47 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 118.83 ms (1)
+Aug 02 01:48:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:48:47 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 01:49:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:49:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:49:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:49:29 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:49:29 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:49:29 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:49:29 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:49:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:49:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:49:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:49:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:49:29 symfony [info] {sfWebDebugLogger} Configuration 5.76 ms (9)
+Aug 02 01:49:29 symfony [info] {sfWebDebugLogger} Factories 83.21 ms (1)
+Aug 02 01:49:29 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 01:49:29 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 153.59 ms (1)
+Aug 02 01:49:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:49:29 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 01:51:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:51:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:51:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:51:32 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:51:32 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:51:32 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:51:32 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:51:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:51:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:51:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:51:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:51:33 symfony [info] {sfWebDebugLogger} Configuration 5.52 ms (9)
+Aug 02 01:51:33 symfony [info] {sfWebDebugLogger} Factories 84.29 ms (1)
+Aug 02 01:51:33 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 01:51:33 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 151.29 ms (1)
+Aug 02 01:51:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:51:33 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 01:51:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:51:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:51:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:51:56 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:51:56 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:51:56 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:51:56 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:51:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:51:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:51:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:51:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:51:56 symfony [info] {sfWebDebugLogger} Configuration 5.09 ms (9)
+Aug 02 01:51:56 symfony [info] {sfWebDebugLogger} Factories 61.45 ms (1)
+Aug 02 01:51:56 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 01:51:56 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 144.04 ms (1)
+Aug 02 01:51:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:51:56 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 01:58:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 01:58:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 01:58:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 01:58:21 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 01:58:21 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 01:58:21 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:58:21 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 01:58:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 01:58:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 01:58:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 01:58:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 01:58:21 symfony [info] {sfWebDebugLogger} Configuration 5.82 ms (9)
+Aug 02 01:58:21 symfony [info] {sfWebDebugLogger} Factories 60.14 ms (1)
+Aug 02 01:58:21 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 01:58:21 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 141.65 ms (1)
+Aug 02 01:58:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 01:58:21 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 02:00:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:00:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:00:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:00:05 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:00:05 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:00:05 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:00:05 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:00:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:00:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:00:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:00:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:00:05 symfony [info] {sfWebDebugLogger} Configuration 5.40 ms (9)
+Aug 02 02:00:05 symfony [info] {sfWebDebugLogger} Factories 60.78 ms (1)
+Aug 02 02:00:05 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:00:05 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 149.06 ms (1)
+Aug 02 02:00:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:00:05 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 02:01:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:01:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:01:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:01:57 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:01:57 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:01:57 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:01:57 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:01:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:01:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:01:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:01:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:01:57 symfony [info] {sfWebDebugLogger} Configuration 5.50 ms (9)
+Aug 02 02:01:57 symfony [info] {sfWebDebugLogger} Factories 59.38 ms (1)
+Aug 02 02:01:57 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.43 ms (1)
+Aug 02 02:01:57 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 147.59 ms (1)
+Aug 02 02:01:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:01:57 symfony [info] {sfWebResponse} Send content (35431 o)
+Aug 02 02:02:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:02:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:02:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:02:03 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:02:03 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:02:03 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:02:03 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:02:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:02:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:02:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:02:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:02:03 symfony [info] {sfWebDebugLogger} Configuration 5.38 ms (9)
+Aug 02 02:02:03 symfony [info] {sfWebDebugLogger} Factories 58.13 ms (1)
+Aug 02 02:02:03 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:02:03 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 148.81 ms (1)
+Aug 02 02:02:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:02:03 symfony [info] {sfWebResponse} Send content (35544 o)
+Aug 02 02:05:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:05:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:05:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:05:52 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:05:52 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:05:52 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:05:52 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:05:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:05:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:05:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:05:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:05:52 symfony [info] {sfWebDebugLogger} Configuration 5.44 ms (9)
+Aug 02 02:05:52 symfony [info] {sfWebDebugLogger} Factories 60.15 ms (1)
+Aug 02 02:05:52 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.48 ms (1)
+Aug 02 02:05:52 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 121.03 ms (1)
+Aug 02 02:05:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:05:52 symfony [info] {sfWebResponse} Send content (35576 o)
+Aug 02 02:11:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:11:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:11:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:11:59 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:11:59 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:11:59 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:11:59 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:11:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:11:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:11:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:11:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:11:59 symfony [info] {sfWebDebugLogger} Configuration 5.66 ms (9)
+Aug 02 02:11:59 symfony [info] {sfWebDebugLogger} Factories 57.89 ms (1)
+Aug 02 02:11:59 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:11:59 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 141.22 ms (1)
+Aug 02 02:11:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:12:00 symfony [info] {sfWebResponse} Send content (35576 o)
+Aug 02 02:13:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:13:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:13:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:13:31 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:13:31 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:13:31 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:13:31 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:13:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:13:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:13:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:13:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:13:31 symfony [info] {sfWebDebugLogger} Configuration 5.63 ms (9)
+Aug 02 02:13:31 symfony [info] {sfWebDebugLogger} Factories 59.52 ms (1)
+Aug 02 02:13:31 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:13:31 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 124.77 ms (1)
+Aug 02 02:13:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:13:31 symfony [info] {sfWebResponse} Send content (35576 o)
+Aug 02 02:14:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:14:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:14:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:14:28 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:14:28 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:14:28 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:14:28 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:14:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:14:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:14:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:14:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:14:29 symfony [info] {sfWebDebugLogger} Configuration 5.49 ms (9)
+Aug 02 02:14:29 symfony [info] {sfWebDebugLogger} Factories 58.64 ms (1)
+Aug 02 02:14:29 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:14:29 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 143.21 ms (1)
+Aug 02 02:14:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:14:29 symfony [info] {sfWebResponse} Send content (35576 o)
+Aug 02 02:19:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:19:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:19:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:19:12 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:19:12 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:19:12 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:19:12 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:19:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:19:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:19:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:19:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:19:12 symfony [info] {sfWebDebugLogger} Configuration 5.48 ms (9)
+Aug 02 02:19:12 symfony [info] {sfWebDebugLogger} Factories 59.07 ms (1)
+Aug 02 02:19:12 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:19:12 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 142.78 ms (1)
+Aug 02 02:19:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:19:12 symfony [info] {sfWebResponse} Send content (35576 o)
+Aug 02 02:21:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:21:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:21:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:21:54 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:21:54 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:21:54 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:21:54 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:21:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:21:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:21:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:21:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:21:54 symfony [info] {sfWebDebugLogger} Configuration 5.09 ms (9)
+Aug 02 02:21:54 symfony [info] {sfWebDebugLogger} Factories 58.44 ms (1)
+Aug 02 02:21:54 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.51 ms (1)
+Aug 02 02:21:54 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 119.60 ms (1)
+Aug 02 02:21:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:21:55 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:23:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:23:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:23:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:23:04 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:23:04 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:23:04 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:23:04 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:23:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:23:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:23:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:23:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:23:04 symfony [info] {sfWebDebugLogger} Configuration 5.37 ms (9)
+Aug 02 02:23:04 symfony [info] {sfWebDebugLogger} Factories 58.38 ms (1)
+Aug 02 02:23:04 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.39 ms (1)
+Aug 02 02:23:04 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 149.13 ms (1)
+Aug 02 02:23:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:23:04 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:27:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:27:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:27:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:27:38 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:27:38 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:27:38 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:27:38 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:27:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:27:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:27:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:27:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:27:38 symfony [info] {sfWebDebugLogger} Configuration 5.47 ms (9)
+Aug 02 02:27:38 symfony [info] {sfWebDebugLogger} Factories 58.02 ms (1)
+Aug 02 02:27:38 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.49 ms (1)
+Aug 02 02:27:38 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 150.02 ms (1)
+Aug 02 02:27:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:27:38 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:28:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:28:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:28:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:28:22 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:28:22 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:28:22 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:28:22 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:28:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:28:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:28:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:28:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:28:22 symfony [info] {sfWebDebugLogger} Configuration 6.49 ms (9)
+Aug 02 02:28:22 symfony [info] {sfWebDebugLogger} Factories 61.33 ms (1)
+Aug 02 02:28:22 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.52 ms (1)
+Aug 02 02:28:22 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 148.82 ms (1)
+Aug 02 02:28:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:28:22 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:28:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:28:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:28:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:28:50 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:28:50 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:28:50 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:28:50 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:28:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:28:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:28:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:28:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:28:50 symfony [info] {sfWebDebugLogger} Configuration 5.10 ms (9)
+Aug 02 02:28:50 symfony [info] {sfWebDebugLogger} Factories 58.57 ms (1)
+Aug 02 02:28:50 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.42 ms (1)
+Aug 02 02:28:50 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 148.57 ms (1)
+Aug 02 02:28:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:28:50 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:31:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:31:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:31:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:31:53 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:31:53 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:31:53 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:31:53 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:31:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:31:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:31:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:31:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:31:53 symfony [info] {sfWebDebugLogger} Configuration 5.33 ms (9)
+Aug 02 02:31:53 symfony [info] {sfWebDebugLogger} Factories 57.96 ms (1)
+Aug 02 02:31:53 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:31:53 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 142.49 ms (1)
+Aug 02 02:31:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:31:53 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:32:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:32:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:32:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:32:57 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:32:57 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:32:57 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:32:57 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:32:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:32:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:32:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:32:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:32:57 symfony [info] {sfWebDebugLogger} Configuration 5.75 ms (9)
+Aug 02 02:32:57 symfony [info] {sfWebDebugLogger} Factories 60.66 ms (1)
+Aug 02 02:32:57 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:32:57 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 143.63 ms (1)
+Aug 02 02:32:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:32:57 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:35:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:35:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:35:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:35:15 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:35:15 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:35:15 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:35:15 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:35:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:35:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:35:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:35:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:35:15 symfony [info] {sfWebDebugLogger} Configuration 5.67 ms (9)
+Aug 02 02:35:15 symfony [info] {sfWebDebugLogger} Factories 95.67 ms (1)
+Aug 02 02:35:15 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.42 ms (1)
+Aug 02 02:35:15 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 172.93 ms (1)
+Aug 02 02:35:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:35:15 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:35:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:35:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:35:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:35:35 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:35:35 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:35:35 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:35:35 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:35:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:35:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:35:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:35:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:35:35 symfony [info] {sfWebDebugLogger} Configuration 5.88 ms (9)
+Aug 02 02:35:35 symfony [info] {sfWebDebugLogger} Factories 59.17 ms (1)
+Aug 02 02:35:35 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:35:35 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 142.90 ms (1)
+Aug 02 02:35:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:35:35 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:36:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:36:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:36:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:36:03 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:36:03 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:36:03 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:36:03 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:36:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:36:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:36:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:36:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:36:03 symfony [info] {sfWebDebugLogger} Configuration 5.82 ms (9)
+Aug 02 02:36:03 symfony [info] {sfWebDebugLogger} Factories 61.35 ms (1)
+Aug 02 02:36:03 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:36:03 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 141.98 ms (1)
+Aug 02 02:36:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:36:03 symfony [info] {sfWebResponse} Send content (35410 o)
+Aug 02 02:43:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:43:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:43:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:43:25 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:43:25 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:43:25 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:43:25 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:43:25 symfony [err] {sfConfigurationException} The route "onas" does not exist.
+Aug 02 02:43:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 02 02:43:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:43:26 symfony [info] {sfWebDebugLogger} Configuration 6.31 ms (9)
+Aug 02 02:43:26 symfony [info] {sfWebDebugLogger} Factories 91.21 ms (1)
+Aug 02 02:43:26 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.46 ms (1)
+Aug 02 02:43:26 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 192.98 ms (1)
+Aug 02 02:44:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:44:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:44:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:44:27 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:44:27 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:44:27 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:44:27 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:44:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:44:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:44:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:44:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:44:27 symfony [info] {sfWebDebugLogger} Configuration 294.05 ms (10)
+Aug 02 02:44:27 symfony [info] {sfWebDebugLogger} Factories 371.79 ms (1)
+Aug 02 02:44:27 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.57 ms (1)
+Aug 02 02:44:27 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 145.20 ms (1)
+Aug 02 02:44:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.05 ms (2)
+Aug 02 02:44:27 symfony [info] {sfWebResponse} Send content (35668 o)
+Aug 02 02:46:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:46:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:46:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:46:55 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:46:55 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:46:55 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:46:55 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:46:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:46:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:46:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:46:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:46:55 symfony [info] {sfWebDebugLogger} Configuration 5.03 ms (9)
+Aug 02 02:46:55 symfony [info] {sfWebDebugLogger} Factories 59.41 ms (1)
+Aug 02 02:46:55 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.52 ms (1)
+Aug 02 02:46:55 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 146.83 ms (1)
+Aug 02 02:46:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:46:55 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:47:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:47:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:47:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:47:31 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:47:31 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:47:31 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:47:31 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:47:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:47:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:47:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:47:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:47:31 symfony [info] {sfWebDebugLogger} Configuration 5.38 ms (9)
+Aug 02 02:47:31 symfony [info] {sfWebDebugLogger} Factories 84.66 ms (1)
+Aug 02 02:47:31 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.40 ms (1)
+Aug 02 02:47:31 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 156.73 ms (1)
+Aug 02 02:47:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:47:31 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:48:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:48:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:48:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:48:07 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:48:07 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:48:07 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:48:07 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:48:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:48:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:48:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:48:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:48:08 symfony [info] {sfWebDebugLogger} Configuration 5.31 ms (9)
+Aug 02 02:48:08 symfony [info] {sfWebDebugLogger} Factories 60.87 ms (1)
+Aug 02 02:48:08 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:48:08 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 151.50 ms (1)
+Aug 02 02:48:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:48:08 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:48:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:48:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:48:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:48:41 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:48:41 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:48:41 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:48:41 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:48:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:48:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:48:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:48:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:48:41 symfony [info] {sfWebDebugLogger} Configuration 4.91 ms (9)
+Aug 02 02:48:41 symfony [info] {sfWebDebugLogger} Factories 61.70 ms (1)
+Aug 02 02:48:41 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.41 ms (1)
+Aug 02 02:48:41 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 145.77 ms (1)
+Aug 02 02:48:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:48:42 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:49:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:49:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:49:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:49:12 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:49:12 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:49:12 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:49:12 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:49:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:49:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:49:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:49:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:49:13 symfony [info] {sfWebDebugLogger} Configuration 5.09 ms (9)
+Aug 02 02:49:13 symfony [info] {sfWebDebugLogger} Factories 59.60 ms (1)
+Aug 02 02:49:13 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:49:13 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 148.12 ms (1)
+Aug 02 02:49:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:49:13 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:49:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:49:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:49:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:49:41 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:49:41 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:49:41 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:49:41 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:49:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:49:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:49:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:49:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:49:41 symfony [info] {sfWebDebugLogger} Configuration 5.16 ms (9)
+Aug 02 02:49:41 symfony [info] {sfWebDebugLogger} Factories 85.09 ms (1)
+Aug 02 02:49:41 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.39 ms (1)
+Aug 02 02:49:41 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 154.42 ms (1)
+Aug 02 02:49:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:49:42 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:51:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:51:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:51:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:51:04 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:51:04 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:51:04 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:51:04 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:51:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:51:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:51:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:51:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:51:04 symfony [info] {sfWebDebugLogger} Configuration 5.38 ms (9)
+Aug 02 02:51:04 symfony [info] {sfWebDebugLogger} Factories 95.80 ms (1)
+Aug 02 02:51:04 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.39 ms (1)
+Aug 02 02:51:04 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 174.15 ms (1)
+Aug 02 02:51:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:51:04 symfony [info] {sfWebResponse} Send content (35663 o)
+Aug 02 02:51:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:51:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:51:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:51:14 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:51:14 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:51:14 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:51:14 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:51:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:51:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:51:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:51:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:51:14 symfony [info] {sfWebDebugLogger} Configuration 5.39 ms (9)
+Aug 02 02:51:14 symfony [info] {sfWebDebugLogger} Factories 61.38 ms (1)
+Aug 02 02:51:14 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:51:14 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 124.87 ms (1)
+Aug 02 02:51:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:51:14 symfony [info] {sfWebResponse} Send content (35518 o)
+Aug 02 02:52:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:52:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:52:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:52:39 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:52:39 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:52:39 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:52:39 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:52:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:52:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:52:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:52:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:52:39 symfony [info] {sfWebDebugLogger} Configuration 5.42 ms (9)
+Aug 02 02:52:39 symfony [info] {sfWebDebugLogger} Factories 83.44 ms (1)
+Aug 02 02:52:39 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.55 ms (1)
+Aug 02 02:52:39 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 158.04 ms (1)
+Aug 02 02:52:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:52:40 symfony [info] {sfWebResponse} Send content (35518 o)
+Aug 02 02:53:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:53:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:53:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:53:32 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:53:32 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:53:32 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:53:32 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:53:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:53:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:53:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:53:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:53:32 symfony [info] {sfWebDebugLogger} Configuration 5.73 ms (9)
+Aug 02 02:53:32 symfony [info] {sfWebDebugLogger} Factories 86.56 ms (1)
+Aug 02 02:53:32 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.46 ms (1)
+Aug 02 02:53:32 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 165.20 ms (1)
+Aug 02 02:53:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:53:32 symfony [info] {sfWebResponse} Send content (35518 o)
+Aug 02 02:54:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:54:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:54:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:54:25 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:54:25 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:54:25 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:54:25 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:54:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:54:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:54:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:54:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:54:25 symfony [info] {sfWebDebugLogger} Configuration 188.10 ms (10)
+Aug 02 02:54:25 symfony [info] {sfWebDebugLogger} Factories 244.32 ms (1)
+Aug 02 02:54:25 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:54:25 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 144.98 ms (1)
+Aug 02 02:54:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:54:25 symfony [info] {sfWebResponse} Send content (35569 o)
+Aug 02 02:55:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:55:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:55:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:55:05 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:55:05 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:55:05 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:55:05 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:55:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:55:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:55:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:55:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:55:05 symfony [info] {sfWebDebugLogger} Configuration 5.53 ms (9)
+Aug 02 02:55:05 symfony [info] {sfWebDebugLogger} Factories 59.04 ms (1)
+Aug 02 02:55:05 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.52 ms (1)
+Aug 02 02:55:05 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 145.49 ms (1)
+Aug 02 02:55:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:55:06 symfony [info] {sfWebResponse} Send content (35588 o)
+Aug 02 02:56:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:56:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:56:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:56:24 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:56:24 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:56:24 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:56:24 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:56:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:56:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:56:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:56:25 symfony [info] {sfWebDebugLogger} Configuration 5.26 ms (9)
+Aug 02 02:56:25 symfony [info] {sfWebDebugLogger} Factories 58.46 ms (1)
+Aug 02 02:56:25 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:56:25 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 125.15 ms (1)
+Aug 02 02:56:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:56:25 symfony [info] {sfWebResponse} Send content (35588 o)
+Aug 02 02:56:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:56:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:56:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:56:52 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:56:52 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:56:52 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:56:52 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:56:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:56:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:56:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:56:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:56:52 symfony [info] {sfWebDebugLogger} Configuration 5.41 ms (9)
+Aug 02 02:56:52 symfony [info] {sfWebDebugLogger} Factories 84.18 ms (1)
+Aug 02 02:56:52 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.39 ms (1)
+Aug 02 02:56:52 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 153.97 ms (1)
+Aug 02 02:56:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:56:52 symfony [info] {sfWebResponse} Send content (35588 o)
+Aug 02 02:58:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:58:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:58:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:58:24 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:58:24 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:58:24 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:58:24 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:58:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:58:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:58:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:58:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:58:24 symfony [info] {sfWebDebugLogger} Configuration 5.59 ms (9)
+Aug 02 02:58:24 symfony [info] {sfWebDebugLogger} Factories 60.09 ms (1)
+Aug 02 02:58:24 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.38 ms (1)
+Aug 02 02:58:24 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 124.69 ms (1)
+Aug 02 02:58:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:58:24 symfony [info] {sfWebResponse} Send content (35678 o)
+Aug 02 02:59:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'homepage',  'action' => 'index',)
+Aug 02 02:59:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 02 02:59:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 02 02:59:07 symfony [info] {homepageActions} Call "homepageActions->executeIndex()"
+Aug 02 02:59:07 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/modules/homepage/templates/indexSuccess.php"
+Aug 02 02:59:07 symfony [info] {sfPHPView} Decorate content with "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:59:07 symfony [info] {sfPHPView} Render "/home/administrator/senzadubbio/apps/frontend/templates/layout.php"
+Aug 02 02:59:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 02 02:59:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.sitename AS s__sitename, s.email AS s__email, s.tel AS s__tel, s.mobil AS s__mobil, s.pracovni_doba AS s__pracovni_doba, s.ulice AS s__ulice, s.mesto AS s__mesto, s.web_adr AS s__web_adr, s.ga_code AS s__ga_code, s.google_overeni AS s__google_overeni, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM setting s WHERE (s.id = ?) LIMIT 1 - (1)
+Aug 02 02:59:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 02 02:59:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 02 02:59:08 symfony [info] {sfWebDebugLogger} Configuration 5.19 ms (9)
+Aug 02 02:59:08 symfony [info] {sfWebDebugLogger} Factories 58.52 ms (1)
+Aug 02 02:59:08 symfony [info] {sfWebDebugLogger} Action "homepage/index" 0.37 ms (1)
+Aug 02 02:59:08 symfony [info] {sfWebDebugLogger} View "Success" for "homepage/index" 151.19 ms (1)
+Aug 02 02:59:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (2)
+Aug 02 02:59:08 symfony [info] {sfWebResponse} Send content (35678 o)

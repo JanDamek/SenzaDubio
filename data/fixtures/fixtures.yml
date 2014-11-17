@@ -1,0 +1,894 @@
+Sluzby:
+  Sluzby_1:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:12'
+    updated_at: '2012-02-20 09:55:08'
+  Sluzby_2:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 19:52:18'
+  Sluzby_3:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 19:56:10'
+  Sluzby_4:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:01:06'
+  Sluzby_5:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:05:05'
+  Sluzby_6:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:08:36'
+  Sluzby_7:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:10:37'
+  Sluzby_8:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:13:17'
+  Sluzby_9:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:15:01'
+  Sluzby_10:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:16:23'
+  Sluzby_11:
+    info_list: ''
+    name: ''
+    created_at: '2011-11-30 15:50:13'
+    updated_at: '2012-02-27 20:18:52'
+Klienti:
+  Klienti_1:
+    name: 'CA Italia'
+    slug: caitalia
+    publikovat: true
+    img_gray: /uploads/klienti/italia_c.jpg
+    img_hover: /uploads/klienti/italia_b.jpg
+    url: ''
+    created_at: '2011-11-30 15:57:44'
+    updated_at: '2012-02-07 16:52:29'
+  Klienti_2:
+    name: 'Porsche Inter Auto'
+    slug: porsche
+    publikovat: true
+    img_gray: /uploads/klienti/porsche.jpg
+    img_hover: /uploads/klienti/porsche.jpg
+    url: ''
+    created_at: '2011-11-30 15:58:08'
+    updated_at: '2012-02-07 16:53:52'
+  Klienti_3:
+    name: 'Societa` Dante Alighieri'
+    slug: dante
+    publikovat: true
+    img_gray: /uploads/klienti/da_c.jpg
+    img_hover: /uploads/klienti/da_b.jpg
+    url: ''
+    created_at: '2011-11-30 15:58:30'
+    updated_at: '2012-02-07 16:57:36'
+  Klienti_4:
+    name: 'Pro Active'
+    slug: proactive
+    publikovat: true
+    img_gray: /uploads/klienti/proactivity_c.jpg
+    img_hover: /uploads/klienti/proactivity_b.jpg
+    url: ''
+    created_at: '2011-11-30 15:58:59'
+    updated_at: '2012-02-07 16:58:48'
+  Klienti_5:
+    name: 'Simply Life'
+    slug: simply
+    publikovat: true
+    img_gray: /uploads/klienti/simply_c.jpg
+    img_hover: /uploads/klienti/simply_b.jpg
+    url: ''
+    created_at: '2011-11-30 15:59:21'
+    updated_at: '2011-12-15 22:45:32'
+  Klienti_6:
+    name: Heat
+    slug: heat
+    publikovat: true
+    img_gray: /uploads//klienti/heat_c.jpg
+    img_hover: /uploads//klienti/heat_b.jpg
+    url: ''
+    created_at: '2011-12-02 06:07:42'
+    updated_at: '2012-02-07 17:01:18'
+Gallery:
+  Gallery_1:
+    title: 'Galerie CS'
+    description: popis
+    is_active: false
+    created_at: '2012-04-08 21:51:52'
+    updated_at: '2012-04-16 20:03:04'
+    slug: galerie-cs
+  Gallery_2:
+    title: homepage_CZ
+    description: ''
+    is_active: false
+    created_at: '2012-04-16 19:50:18'
+    updated_at: '2012-04-17 10:38:19'
+    slug: homepage-cz
+GalleryImage:
+  GalleryImage_1:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//default/empty.gif
+    path2: /uploads//klienti/italia_b.jpg
+    alt: alt
+    title: title
+    ord: null
+    created_at: '2012-04-08 21:51:52'
+    updated_at: '2012-04-08 21:51:52'
+  GalleryImage_2:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//nahledy/bentley.jpg
+    path2: /uploads//nahledy/bentley.jpg
+    alt: alt
+    title: title
+    ord: null
+    created_at: '2012-04-08 21:54:08'
+    updated_at: '2012-04-08 21:54:08'
+  GalleryImage_3:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//nahledy/caitalia.jpg
+    path2: /uploads//nahledy/caitalia.jpg
+    alt: caitalia
+    title: caitalia
+    ord: null
+    created_at: '2012-04-08 21:55:09'
+    updated_at: '2012-04-08 21:55:09'
+  GalleryImage_4:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//nahledy/nl.jpg
+    path2: /uploads//nahledy/nl.jpg
+    alt: nl
+    title: nl
+    ord: null
+    created_at: '2012-04-08 21:59:52'
+    updated_at: '2012-04-08 21:59:52'
+  GalleryImage_5:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//nahledy/caitalia.jpg
+    path2: /uploads//galerie_cs/caitalia_web_cze.jpg
+    alt: 'CA Italia'
+    title: 'CA Italia'
+    ord: null
+    created_at: '2012-04-16 19:49:18'
+    updated_at: '2012-04-16 19:49:18'
+  GalleryImage_6:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//nahledy/caitalia.jpg
+    path2: /uploads//galerie_cs/caitalia_web_cze.jpg
+    alt: 'CA Italia'
+    title: 'CA Italia'
+    ord: null
+    created_at: '2012-04-16 19:50:18'
+    updated_at: '2012-04-16 19:50:18'
+  GalleryImage_7:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//nahledy/bentley.jpg
+    path2: /uploads//galerie_cs/senza_refe_porsche_cze.jpg
+    alt: 'Porsche Praha-Smichov'
+    title: 'Porsche Praha-Smichov'
+    ord: null
+    created_at: '2012-04-16 19:56:57'
+    updated_at: '2012-04-16 19:56:57'
+  GalleryImage_8:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads/nahledy/nl.jpg
+    path2: /uploads//galerie_cs/senza_refe_porsche_newslleter_cze.jpg
+    alt: 'Porsche Praha'
+    title: 'Porsche Praha'
+    ord: null
+    created_at: '2012-04-16 19:59:11'
+    updated_at: '2012-04-16 19:59:11'
+  GalleryImage_9:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//nahledy/quick_dren.jpg
+    path2: /uploads//galerie_cs/senza_refe_whcs_letak_cze.jpg
+    alt: 'WHCS - leták'
+    title: 'WHCS - leták'
+    ord: null
+    created_at: '2012-04-16 20:00:33'
+    updated_at: '2012-04-16 20:00:33'
+  GalleryImage_10:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//nahledy/bannery.jpg
+    path2: /uploads//galerie_cs/porsche_bannery_cze.jpg
+    alt: 'Bannery Porsche Praha-Smíchov'
+    title: 'Bannery Porsche Praha-Smíchov'
+    ord: null
+    created_at: '2012-04-16 20:03:04'
+    updated_at: '2012-04-16 20:03:04'
+  GalleryImage_11:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//nahledy/bannery.jpg
+    path2: /uploads//galerie_cs/porsche_bannery_cze.jpg
+    alt: 'bannery Porsche Praha-Smíchov'
+    title: 'bannery Porsche Praha-Smíchov'
+    ord: null
+    created_at: '2012-04-16 20:04:03'
+    updated_at: '2012-04-16 20:04:03'
+  GalleryImage_12:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//nahledy/krabicka.jpg
+    path2: /uploads//galerie_cs/senza_refe_whcs_obsal_cze.jpg
+    alt: 'WHCS - obalový design'
+    title: 'WHCS - obalový design'
+    ord: null
+    created_at: '2012-04-17 10:36:21'
+    updated_at: '2012-04-17 10:36:21'
+  GalleryImage_13:
+    Gallery: Gallery_2
+    is_active: true
+    path: /uploads//nahledy/whcs_web.jpg
+    path2: /uploads//galerie_cs/senza_refe_whcs_cze.jpg
+    alt: 'WHCS - webdesign'
+    title: 'WHCS - webdesign'
+    ord: null
+    created_at: '2012-04-17 10:38:19'
+    updated_at: '2012-04-17 10:38:19'
+Stranky:
+  Stranky_1:
+    name: homepage
+    slug: homepage
+    publikovat: true
+    gallery_cs: Gallery_2
+    created_at: '2011-11-29 02:37:18'
+    updated_at: '2012-04-16 19:52:46'
+  Stranky_2:
+    name: onas
+    slug: onas
+    publikovat: false
+    created_at: '2011-11-29 02:40:31'
+    updated_at: '2011-12-02 06:57:05'
+  Stranky_3:
+    name: partneři
+    slug: odkazy
+    publikovat: true
+    created_at: '2011-12-09 09:23:49'
+    updated_at: '2011-12-21 03:17:39'
+  Stranky_4:
+    name: klienti
+    slug: klienti
+    publikovat: true
+    created_at: '2011-12-21 04:59:07'
+    updated_at: '2012-01-18 23:13:07'
+  Stranky_5:
+    name: služby
+    slug: sluzby
+    publikovat: true
+    created_at: '2011-12-21 04:59:39'
+    updated_at: '2012-02-27 20:21:12'
+  Stranky_6:
+    name: kontakt
+    slug: kontakt
+    publikovat: true
+    created_at: '2011-12-21 05:00:02'
+    updated_at: '2011-12-21 05:00:02'
+Setting:
+  Setting_1:
+    SiteName: 'Senza dubbio'
+    pracovni_doba: ''
+    web_adr: www.senzadubbio.cz
+    ga_code: 'UA-27472435-1'
+    google_overeni: ''
+    created_at: '2011-07-29 00:22:28'
+    updated_at: '2012-02-29 16:49:16'
+SluzbyTranslation:
+  SluzbyTranslation_1_cs:
+    Sluzby: Sluzby_1
+    title: 'Grafické, kreativní a DTP práce'
+    popis: '<p>návrhy log, corporate identity, logomanuály, design, 3D grafika, merkantilie, vizitky, kreativní grafické návrhy, sazba a zlom, retuše, grafické korektury, tvorba layoutů, předtisková příprava, vektorová grafika, obalový design, etikety</p>'
+    lang: cs
+  SluzbyTranslation_1_de:
+    Sluzby: Sluzby_1
+    title: 'Kreative, grafische und DTP Arbeit'
+    popis: '<p>Logoentwürfe, Corporate Identity, Logomanualen, Design, 3D Grafik, Merkantilien, Visitenkarten, kreative grafische Entwürfe, r Satz und Bruch, Retuschen, grafische Korrekturen, Bildung von Layouten, Vordruckvorbereitung, Vektorgrafik, Packungsdesign,  Etikette</p>'
+    lang: de
+  SluzbyTranslation_1_en:
+    Sluzby: Sluzby_1
+    title: 'Creative, graphic and DTP work'
+    popis: '<p>logo design, corporate identity, logo manual, design, 3D graphics, business cards, creative graphic design, typesetting and layout, retouching, video editing, creating layouts, prepress, vector graphics, packaging design, labels and stickers</p>'
+    lang: en
+  SluzbyTranslation_1_it:
+    Sluzby: Sluzby_1
+    title: 'Lavori creativi, grafici e DTP'
+    popis: '<p>progetti di logo, corporate identity, manuali di logo, design, 3D grafica, mercantili, biglietti di visita, progetti grafici creativi, impaginatura, ritocchi, correzioni grafiche, creazione layout, preparazione di stampa, grafica vettoriale, disegno di sopraccoperta, etichette</p>'
+    lang: it
+  SluzbyTranslation_2_cs:
+    Sluzby: Sluzby_2
+    title: 'Fotografické práce'
+    popis: '<p>reklamní fotografie, fashion fotografie, produktové fotografie, foodstyling, ilustrační fotografie, reportáže, tableshoot, portréty, kalendáře, interiéry, modeling, kompozice, detaily</p>'
+    lang: cs
+  SluzbyTranslation_2_de:
+    Sluzby: Sluzby_2
+    title: 'Fotografische  Arbeit'
+    popis: '<p>Werbefotografien, Fashionfotos, Produktfotos, Foodstyling, illustrative Fotos, Reportagen, Tableshoot, Porträte, Kalender, Interieure, Modebranche, Komposition, Details</p>'
+    lang: de
+  SluzbyTranslation_2_en:
+    Sluzby: Sluzby_2
+    title: 'Photographic work'
+    popis: '<p>advertising photography, fashion photos, product photos, food-styling, photos, photo reports, table-shoot, portraits, calendars, interiors, modeling, composition, details</p>'
+    lang: en
+  SluzbyTranslation_2_it:
+    Sluzby: Sluzby_2
+    title: 'Lavori fotografici'
+    popis: '<p>fotografie di promozione, fashion-fotografie, fotografie di prodotti, foodstyling, fotografie illustrative, servizi d´informazioni, tableshoot, ritratti, calendari, arredamenti interni, modeling, composizioni, dettagli</p>'
+    lang: it
+  SluzbyTranslation_3_cs:
+    Sluzby: Sluzby_3
+    title: 'PR, redakční práce, korektury a překlady'
+    popis: '<p>poradenství v oblasti strategické komunikace, tvorba značky, interní komunikace, vydavatelská činnost, tvorba textů, copywriting, redakční práce, reportáže, sponzorské projekty, korektury, podpora prodeje, překladatelské služby AJ, NJ, IJ, ŠJ, FJ atd.</p>'
+    lang: cs
+  SluzbyTranslation_3_de:
+    Sluzby: Sluzby_3
+    title: 'PR, Redaktionsarbeit, Korrekturen und  Übersetzungen'
+    popis: '<p>Beratung auf dem Gebiet der strategischen Kommunikation, Markenbildung, interne Kommunikation, Verlegertätigkeit, Textenbildung, Copywriting, Redaktionsarbeit, Reportagen, Sponsorprojekte, Korrekturen, Verkaufsunterstützung, Übersetzungsdienstleistungen /englisch, deutsch, italienisch, spanisch, französisch u.s.w.</p>'
+    lang: de
+  SluzbyTranslation_3_en:
+    Sluzby: Sluzby_3
+    title: 'PR, editing, proofreading and translation'
+    popis: '<p>consulting on strategic communication, branding, internal communication, publishing, writing texts, copy-writing, editing, reporting, fund-raising projects, proofreading, promotion, translation service: English, German, Italian, Spanish, French, etc.</p>'
+    lang: en
+  SluzbyTranslation_3_it:
+    Sluzby: Sluzby_3
+    title: 'PR, lavori redazionali, correzioni e traduzioni'
+    popis: '<p>consulenza nella sfera della comunicazione strategica, creazione del marchio (brand), comunicazione interna, editoria, creazione dei testi, copywriting, lavori di redattore, servizi d´informazioni, progetti di sponsore, correzioni, sviluppo della vendita, traduzioni (inglese, tedesco, italiano, francese, spagnolo, etc.)</p>'
+    lang: it
+  SluzbyTranslation_4_cs:
+    Sluzby: Sluzby_4
+    title: 'Vývoj software a aplikací'
+    popis: '<p>vývoj software na míru Windows, Linux Mac OS X, Android a iPhone, webové aplikace, mailingové systémy, CRM systémy, informační systémy, rezervační systémy</p>'
+    lang: cs
+  SluzbyTranslation_4_de:
+    Sluzby: Sluzby_4
+    title: 'Software- und Aplikationenentwicklung'
+    popis: '<p>Softwareentwicklung auf Windows-Mass, Linux Mac OS X, Android und iPhone, Webaplikationen, Mailing- Systeme, CRM – Systeme, Informationssysteme, Reservationssysteme</p>'
+    lang: de
+  SluzbyTranslation_4_en:
+    Sluzby: Sluzby_4
+    title: ' Software and application development'
+    popis: '<p>custom software development of Windows, Linux, Mac OS X, Android and iPhone, web applications, mailing systems, CRM systems, information systems, booking systems</p>'
+    lang: en
+  SluzbyTranslation_4_it:
+    Sluzby: Sluzby_4
+    title: 'Sviluppo di software e delle applicazioni'
+    popis: '<p>sviluppo di software per Windows, Linux Mac OS X, Android e iPhone, applicazioni dei siti web, mailing sistemi, CRM sistemi, sistemi d´informazioni, sistemi di riserva</p>'
+    lang: it
+  SluzbyTranslation_5_cs:
+    Sluzby: Sluzby_5
+    title: 'POS, POP a prezentační systémy'
+    popis: '<p>reklamní stojany, stojany na letáky, podlahové etikety, vlajky, plachty, světelná reklama, A - stojany, roll-up bannery, rollaway, promo poutače, orientační systémy, promostolky, promostánky, výstřčky, svítící produkty, propagační nábytek, interaktivní displaye</p>'
+    lang: cs
+  SluzbyTranslation_5_de:
+    Sluzby: Sluzby_5
+    title: 'POS, POP und Präsentationssysteme'
+    popis: '<p>Werbeständer, Flugblätterständer, Bodenetiketten, Flaggen, Planen, Lichtwerbung, A- Ständer, roll-up Bannere, rollaway, Promoblickfänge, Orientierungssysteme, Promotische, Promostände, Lichtprodukte, Werbemöbel, interaktive Displays</p>'
+    lang: de
+  SluzbyTranslation_5_en:
+    Sluzby: Sluzby_5
+    title: 'POS, POP a prezentační systémy'
+    popis: '<p>advertising stands, stands for leaflets, floor labels, flags, tarpaulins, illuminated advertising, A - stands, roll-up banners, rollaway, promotional banners, navigation systems, illuminating products, promotional furniture, interactive displays</p>'
+    lang: en
+  SluzbyTranslation_5_it:
+    Sluzby: Sluzby_5
+    title: 'POS, POP e sistemi di presentazione'
+    popis: '<p>advertising stands, stands for leaflets, floor labels, flags, tarpaulins, illuminated advertising, A - stands, roll-up banners, rollaway, promotional banners, navigation systems, illuminating products, promotional furniture, interactive displays</p>'
+    lang: it
+  SluzbyTranslation_6_cs:
+    Sluzby: Sluzby_6
+    title: Eventy
+    popis: '<p>firemní prezentace, prezentace produktů, společenské a firemní akce, vánoční večírky, VIP eventy pro vrcholový management, opening party, speciální programy pro vnitřní strukturu firmy, tiskové konference, organizace kulturních akcí</p>'
+    lang: cs
+  SluzbyTranslation_6_de:
+    Sluzby: Sluzby_6
+    title: 'gesellschaftliche Veranstaltungen'
+    popis: '<p>Firmenpräsentation, Produktenpräsentation, gesellschaftliche und firmeneigene Veranstaltungen, Weihnachtsfeier, VIP Veranstaltungen für Topmanagement, Openingparty, spezielle Programme für innere Firmenstruktur, Pressekonferenzen, Organisation der Kulturveranstaltungen und viel anderes</p>'
+    lang: de
+  SluzbyTranslation_6_en:
+    Sluzby: Sluzby_6
+    title: Events
+    popis: '<p>company presentations, product presentations, social and corporate events, Christmas parties, VIP events for top management, opening parties, special programs for the internal structure of the company, press conferences, organization of cultural events and much more ...</p>'
+    lang: en
+  SluzbyTranslation_6_it:
+    Sluzby: Sluzby_6
+    title: Eventi
+    popis: '<p>presentazioni delle aziende, presentazioni dei prodotti, eventi sociali ed aziendali, veglie di Natale, VIP eventy per il managering, opening party, programmi speciali per la struttura interna della ditta, conferenze stampa, organizzazione di eventi culturali, etc.<strong></strong></p>'
+    lang: it
+  SluzbyTranslation_7_cs:
+    Sluzby: Sluzby_7
+    title: 'Webdesign, bannery a tvorba www stránek'
+    popis: '<p>grafický design webových stránek, kódování HTML, implementace redakčního systému, vývoj vlastního redakčního systému, e-shopy, SEO, reklamní bannery –flash, gif, grafika a kódování newsletterů, flashové animace a hry</p>'
+    lang: cs
+  SluzbyTranslation_7_de:
+    Sluzby: Sluzby_7
+    title: 'Webdesign, Bannere und Webseitenbildung'
+    popis: '<p>grafisches Design der Webseiten, Kodierung von HTML, Implementierung des redaktionellen Systems, Entwicklung des eigenen Redaktionssystems, E-Shoppen, SEO, Werbungsbannere- Flash, Gif, Grafik und  Newsletter-Kodierung, Flashanimation und Spiele</p>'
+    lang: de
+  SluzbyTranslation_7_en:
+    Sluzby: Sluzby_7
+    title: 'Web design, banners and website creation'
+    popis: '<p>graphic design of web pages, HTML coding, content management system implementations, development of own content management system, e-shops, SEO, banners -  flash, gif, graphics and newsletters coding, flash animations and games</p>'
+    lang: en
+  SluzbyTranslation_7_it:
+    Sluzby: Sluzby_7
+    title: 'Webdesign, banners, creazione dei siti'
+    popis: '<p>disegno grafico dei siti web, codificazione HTML, implementazione del sistema redazionale, sviluppo del proprio sistema redazionale, e-shop, SEO, banners di pubblicità - flash, gif, grafica e codificazione di newsletters, flash-animazioni e giochi</p>'
+    lang: it
+  SluzbyTranslation_8_cs:
+    Sluzby: Sluzby_8
+    title: 'Tisková produkce, signmaking a označování obchodních míst'
+    popis: '<p>tisk letáků, plakátů, časopisů, katalogů, velkofotmátový tisk, digitální tisk, plachty, billboardy, podlahová grafika, označení obchodních míst, reklamní polepy dopravních prostředků, reklamní poutače, světelné výstrče, řezaná grafika, 3D loga</p>'
+    lang: cs
+  SluzbyTranslation_8_de:
+    Sluzby: Sluzby_8
+    title: 'Druckproduktion, Signmaking und Bezeichnung der Geschäftsstellen'
+    popis: '<p>Druck der Flugblätter, Plakaten, Zeitschriften, Katalogen, Grossformatdruck, Digitaldruck, Planen, Billboards, Bodengrafik, Bezeichnung der Geschäftsstellen, Werbebeklebung der Verkehrsmittel, Werbeblickfänge, Lichtwerbung, Schnittgrafik, 3DLogo</p>'
+    lang: de
+  SluzbyTranslation_8_en:
+    Sluzby: Sluzby_8
+    title: 'Print production, labeling and sign making of business sites'
+    popis: '<p>printing leaflets, posters, magazines, catalogs, large format printing, digital printing, tarpaulins, billboards, floor graphics, identification of commercial sites, vehicle graphic wraps, billboards, advertising banner,cutting graphic design, 3D logos</p>'
+    lang: en
+  SluzbyTranslation_8_it:
+    Sluzby: Sluzby_8
+    title: 'Produzione di stampa, signmaking e indicazione dei luoghi di commercio'
+    popis: '<p>stampa di volantini, di affissi, di riviste, di cataloghi, stampa di grande formato, stampa digitale, tende, billboards, grafica di pavimento, indicazione dei luoghi di commercio, pubblicità sui mezzi di trasporto, cartelloni pubblicitari, insegne luminose, grafica tagliata,   3D logo</p>'
+    lang: it
+  SluzbyTranslation_9_cs:
+    Sluzby: Sluzby_9
+    title: 'Marketing a mediální plánování'
+    popis: '<p>kompletní marketingové strategie, analýza zákazníků, analýza konkurence, SWOT analýza, zhodnocení user experience, definice cílové skupiny, určení efektivní kombinace médií pro oslovení cílové skupiny, nákup reklamního prostoru, zpětná analýza realizované reklamy, vyhodnocení a doporučení pro další komunikaci</p>'
+    lang: cs
+  SluzbyTranslation_9_de:
+    Sluzby: Sluzby_9
+    title: 'Marketing und Medienplanung'
+    popis: '<p>komplette Marketingsstrategien, Kundenanalyse, Konkurenzanalyse, SWOT-Analyse,  user experience Bewertung, Definition der Zielgruppe, Bestimmung der effektiven Medienkombination für Ansprache der Zielgruppe, Einkauf der Werberäume, Rückanalyse der realisierten Werbung, Auswertung und Empfehlung für weitere Kommunikation</p>'
+    lang: de
+  SluzbyTranslation_9_en:
+    Sluzby: Sluzby_9
+    title: 'Marketing and Media Planning'
+    popis: '<p>complete marketing strategy, customer analysis, competitor analysis, SWOT analysis, evaluation of user experience, defining the target groups, selection of the effective media combination to reach target groups, advertising space purchase, feedback analysis of the carried out advertisement, evaluation and recommendations for further communication</p>'
+    lang: en
+  SluzbyTranslation_9_it:
+    Sluzby: Sluzby_9
+    title: 'Marketing e progetti mediali'
+    popis: '<p>strategia completa di marketing, analisi dei clienti, analisi della concorrenza, SWOT analisi, valutazione di user experience, definizione del gruppo target, combinazione effettiva dei media per l´allocuzione del gruppo target, acquisto dello spazio di pubblicità, analisi della pubblicità realizzata, valutazione e raccomandazione per l´altra comunicazione</p>'
+    lang: it
+  SluzbyTranslation_10_cs:
+    Sluzby: Sluzby_10
+    title: 'Outsourcing IT'
+    popis: '<p>kompletní outsourcing IT oddělení, virtuální servery (VPS), serverhosting s administrací, webhosting, servis serverů a pracovních stanic, zálohování dat, tvorba PC sestav</p>'
+    lang: cs
+  SluzbyTranslation_10_de:
+    Sluzby: Sluzby_10
+    title: 'Outsourcing IT'
+    popis: '<p>komplette outsourcing der IT Abteilung, virtuelle Server /VPS/, serverhosting mit der Administration, webhosting, Serverservis und Servis der Argbeitsstationen, Datenumspeicherung, Bildung der PC-Zusammenstellungen</p>'
+    lang: de
+  SluzbyTranslation_10_en:
+    Sluzby: Sluzby_10
+    title: 'IT outsourcing'
+    popis: '<p>comprehensive outsourcing of IT departments, virtual servers (VPS), server-hosting with the administration, web hosting,  servers and workstations service, data backup, PC assembly</p>'
+    lang: en
+  SluzbyTranslation_10_it:
+    Sluzby: Sluzby_10
+    title: 'Outsourcing IT'
+    popis: '<p>outsourcing IT completo, server virtuale, serverhosting con l´amministrazione, webhosting, servizio di servers e di stazioni, dati di backup, creazione delle PC formazioni</p>'
+    lang: it
+  SluzbyTranslation_11_cs:
+    Sluzby: Sluzby_11
+    title: 'Reklamní předměty a textil'
+    popis: '<p>originální reklamní předměty, luxusní značkové reklamní předměty, speciální kolekce, reklamní trička, čepice a pracovní oděvy, kancelářské potřeby, psací potřeby, elektronika, golf, potraviny, kalendáře, diáře, PF karty</p>'
+    lang: cs
+  SluzbyTranslation_11_de:
+    Sluzby: Sluzby_11
+    title: 'Werbegegenstände und Textil'
+    popis: '<p>originelle Werbegegenstände<strong>, </strong>luxuriöse Markenwerbegegenstände, spezielle Kollektion, WerbeT-Shorts, Mützen und  Berufsskleidung, Bürobedarf, Schreibbedarf, Elektronik, Golf, Lebensmittel, Kalender, Notizbücher, Pf-Karten</p>'
+    lang: de
+  SluzbyTranslation_11_en:
+    Sluzby: Sluzby_11
+    title: 'Promotional items'
+    popis: '<p>original promotional items, luxury branded promotional items, special collections, promotional T-shirts, hats and work clothes, desk and ofice products, electronics, golf, food, calendars, diaries, greeting cards</p>'
+    lang: en
+  SluzbyTranslation_11_it:
+    Sluzby: Sluzby_11
+    title: 'Oggetti per la pubblicità e prodotti tessili'
+    popis: '<p>oggetti originali per la pubblicità, oggetti promozionali di lusso, collezioni speciali, magliette pubblicitarie promozionali, berretti e vestiti di lavoro, cancelleria occorente, occorente per scrivere, elettronica, golf, alimentari, calendari, diari, PF carte</p>'
+    lang: it
+KlientiTranslation:
+  KlientiTranslation_1_cs:
+    Klienti: Klienti_1
+    title: 'CA Italia'
+    popis: 'zajišťujeme kompletní servis služeb - grafické práce, webové stránky, IT a další.'
+    lang: cs
+  KlientiTranslation_1_de:
+    Klienti: Klienti_1
+    title: 'CA Italia'
+    popis: 'benutzt komplettes Dienstleistungsservice – grafische Arbeit, Web-Seiten, IT und s.w.'
+    lang: de
+  KlientiTranslation_1_en:
+    Klienti: Klienti_1
+    title: 'CA Italia'
+    popis: 'we provide the full range of services - graphic design, websites, IT and others.'
+    lang: en
+  KlientiTranslation_1_it:
+    Klienti: Klienti_1
+    title: 'CA Italia'
+    popis: 'servizio completo - lavori grafici, siti web, IT, etc.'
+    lang: it
+  KlientiTranslation_2_cs:
+    Klienti: Klienti_2
+    title: 'Porsche Inter Auto'
+    popis: 'zajišťujeme služby v oblasti grafiky, flash-bannerů a kodování.'
+    lang: cs
+  KlientiTranslation_2_de:
+    Klienti: Klienti_2
+    title: 'Porsche Inter Auto'
+    popis: 'wir bieten Dienstleistungen auf dem Gebiet der Grafik, Flash-Banneren und Kodierung an.'
+    lang: de
+  KlientiTranslation_2_en:
+    Klienti: Klienti_2
+    title: 'Porsche Inter Auto'
+    popis: 'we provide services in graphic, flash banners and coding.'
+    lang: en
+  KlientiTranslation_2_it:
+    Klienti: Klienti_2
+    title: 'Porsche Inter Auto'
+    popis: 'servizi grafici, flash-banners, codificazione'
+    lang: it
+  KlientiTranslation_3_cs:
+    Klienti: Klienti_3
+    title: 'Societa` Dante Alighieri'
+    popis: 'zajišťujeme grafické a DTP práce, produkci tiskovin a reklamních materiálů.'
+    lang: cs
+  KlientiTranslation_3_de:
+    Klienti: Klienti_3
+    title: 'Societa` Dante Alighieri'
+    popis: 'benutzt grafische Dienstleistungen, DTP, Drucksachen- und Werbematerialienproduktion'
+    lang: de
+  KlientiTranslation_3_en:
+    Klienti: Klienti_3
+    title: 'Societa` Dante Alighieri'
+    popis: 'it uses the services of graphics, desktop publishing, production of printed and promotional materials.'
+    lang: en
+  KlientiTranslation_3_it:
+    Klienti: Klienti_3
+    title: 'Societa` Dante Alighieri'
+    popis: 'servizi grafici, DTP, produzione di stampa e di materiali di promozione'
+    lang: it
+  KlientiTranslation_4_cs:
+    Klienti: Klienti_4
+    title: 'Pro Active'
+    popis: 'zajišťujeme internetový marketing, webdesign a DTP práce.'
+    lang: cs
+  KlientiTranslation_4_de:
+    Klienti: Klienti_4
+    title: 'Pro Active'
+    popis: 'wir bieten Internetmarketing, Webdesign und DTP-Arbeit an'
+    lang: de
+  KlientiTranslation_4_en:
+    Klienti: Klienti_4
+    title: 'Pro Active'
+    popis: 'we provide Internet marketing, web design and DTP work.'
+    lang: en
+  KlientiTranslation_4_it:
+    Klienti: Klienti_4
+    title: 'Pro Active'
+    popis: 'internet-marketing, webdesign, DTP lavori'
+    lang: it
+  KlientiTranslation_5_cs:
+    Klienti: Klienti_5
+    title: 'Simply Life'
+    popis: 'dováváme služby v oblasti internetového marketingu, grafických prací a IT.'
+    lang: cs
+  KlientiTranslation_5_de:
+    Klienti: Klienti_5
+    title: 'Simply Life'
+    popis: 'wir beliefern die Dienstleistungen auf dem Gebiet des Internetmarketings, grafischer Arbeiten und IT'
+    lang: de
+  KlientiTranslation_5_en:
+    Klienti: Klienti_5
+    title: 'Simply Life'
+    popis: 'we deliver services in Internet marketing, graphic work and IT.'
+    lang: en
+  KlientiTranslation_5_it:
+    Klienti: Klienti_5
+    title: 'Simply Life'
+    popis: 'internet-marketing, lavori grafici, IT'
+    lang: it
+  KlientiTranslation_6_cs:
+    Klienti: Klienti_6
+    title: Heat
+    popis: 'zpracováváme tiskové materiály, reklamní předměty a grafické práce.'
+    lang: cs
+  KlientiTranslation_6_de:
+    Klienti: Klienti_6
+    title: Heat
+    popis: 'wir bearbeiten Druckmaterialien, Werbegegenstände und grafische Arbeit'
+    lang: de
+  KlientiTranslation_6_en:
+    Klienti: Klienti_6
+    title: Heat
+    popis: 'we process printed materials, promotional items and graphic work.'
+    lang: en
+  KlientiTranslation_6_it:
+    Klienti: Klienti_6
+    title: Heat
+    popis: 'materiali di stampa, oggetti di promozione, lavori grafici'
+    lang: it
+StrankyTranslation:
+  StrankyTranslation_1_cs:
+    Stranky: Stranky_1
+    title: 'Grafika, web, IT'
+    str_title: 'Vítejte na Senza dubbio'
+    perex: ''
+    popis: '<p>„Senza dubbio“ znamená v italštině <strong>„bez pochybností“</strong>. Zakládáme si na tom, aby se přesně tak cítili naši klienti. Díky široké síti profesionálů se zkušenostmi z marketingových a PR agentur, grafických studií, IT oblasti i mediálních společností dokážeme nabídnout komplexní služby. <br /><br />Jsme tu pro vás, pokud potřebujete vytvořit funkční a uživatelské příjemné <strong>webové stránky</strong> se slušivým designem. Dokážeme ale pracovat i s <strong>flashovým formátem</strong>, který rozhýbe vaši grafickou prezentaci. Námi vytvořené <strong>aplikace na míru</strong> vám získají nové fanoušky na Facebooku a <strong>aplikace pro smartphony</strong> dostihnou mladou cílovou skupinu doslova kdekoliv. Nežijeme ale pouze v digitálním světě, postaráme se o vaše <strong>tiskové materiály</strong> od vytvoření <strong>kreativního grafického zpracování</strong> až po <strong>zprostředkování tisku</strong>. Naše <strong>PR služby </strong>zlepší váš mediální obraz a <strong>marketingové poradenství</strong> vytvoří tu nejvhodnější strategii propagace.</p>'
+    keywords: 'grafika, webové stránky, IT, reklamní agentura'
+    description: 'Senza dubbio partner v marketingu a reklamě. Webové stránky, aplikace, grafika, tiskové materiály a monoho dalšího.'
+    lang: cs
+  StrankyTranslation_1_de:
+    Stranky: Stranky_1
+    title: 'Grafik, Web-Seiten, IT'
+    str_title: 'Wilkommen an Senza dubbio'
+    perex: ''
+    popis: '<p>„Senza dubbio“ bedeutet im Italienischen „<strong>ohne Zweifel</strong>“.Wir halten uns zugute darauf, dass sich unsere Klienten genauso fühlen. Dank dem breiten Netz der Profis mit Erfahrungen aus den Marketing- und PR-Agenturen, grafischen Studien, IT Bereichen und mediellen Gesellschaften können wir komplexe Dienstleistungen anbieten.<br /><br />Wir sind hier für Sie, wenn Sie funktionelle und angenehme <strong>Web-Seiten </strong>mit schickem Design bilden möchten. Wir arbeiten auch mit dem <strong>Flashformat</strong>, das ihre grafische Präsentation in Bewegung bringt. Von uns gebildene <strong>Aplikationen auf Mass gewinnen</strong> Ihnen neue Fans im Facebook  und die <strong>Aplikationen für Smartphones</strong> holen die junge Zielgruppe buchstäblich wo auch immer ein.  Wir leben aber nicht nur in  digitaler  Welt, wir sorgen  für Ihre <strong>Druckmaterialien von Bildung</strong> der <strong>kreativen grafischen Verarbeitung</strong> bis zur <strong>Druckvermitllung</strong>. Unsere <strong>PR Dienstleistungen</strong> verbessern Ihr Medienbild und die <strong>Marketingberatung</strong> bildet die günstigste Werbungsstrategie.</p>'
+    keywords: ''
+    description: ''
+    lang: de
+  StrankyTranslation_1_en:
+    Stranky: Stranky_1
+    title: 'Graphic, website, IT'
+    str_title: 'Welcome on Senza dubbio'
+    perex: ''
+    popis: '<p>"Senza dubbio" means "<strong>without doubt</strong>" in Italian. We strive to make our customers feel so. Due to a wide network of experts with a professional background  from marketing and PR agencies, graphic studios, IT and media companies we are able to offer comprehensive services.<br /> <br />If you need to create a functional and user friendly smart <strong>web site </strong>design we are here for you. We can also work with <strong>flash-based form </strong>that will set in motion your graphical presentation. Our <strong>custom developed applications</strong> will gain you new fans on Facebook and <strong>applications for smartphones</strong> will reach young target audience literally anywhere. We do not live only in the digital world so we can take care of your <strong>print material</strong>s from <strong>creation of sophisticated graphic design</strong> to <strong>printing</strong>. Our <strong>PR services</strong> will improve your image and <strong>marketing consultancy</strong> will come up with the most appropriate promotion strategy.</p>'
+    keywords: ''
+    description: ''
+    lang: en
+  StrankyTranslation_1_it:
+    Stranky: Stranky_1
+    title: 'Grafica, siti web ed IT'
+    str_title: 'Benvenuti sul Senza dubbio'
+    perex: ''
+    popis: '<p>Senza dubbio vuol dire in italiano <strong>certamente</strong><em>.</em> Vogliamo che questa espressione sia anche la garanzia della sicurezza per i nostri clienti. Possiamo offrire i servizi completi grazie ai professionisti cha hanno molte esperienze nel settore del marketing, delle PR agenzie, degli studi grafici, delle società mediali.<br /><br />Ci siamo per voi se avete bisogno della <strong>creazione dei siti web</strong> con il disegno piacevole. Lavoriamo anche con <strong>il flash formato</strong> per animare la vostra presentazione grafica. Possiamo realizzare le<strong> applicazioni su misura</strong> a Facebook o a <strong>smartphons</strong>. Il nostro mondo non è però soltanto digitale. Presentiamo anche i<strong> materiali di stampa</strong> dallo trattamento <strong>grafico</strong> alla mediazione della <strong>stampa</strong>. I nostri <strong>PR servizi</strong> ci sono per perfezionare la vostra presentazione mediale, la nostra <strong>consulenza di marketing</strong> vi offrirà la migliore strategia della propagazione.</p>'
+    keywords: ''
+    description: ''
+    lang: it
+  StrankyTranslation_2_cs:
+    Stranky: Stranky_2
+    title: 'O nás'
+    str_title: null
+    perex: ''
+    popis: '<p>„Senza dubbio“ znamená v italštině „bez pochybností“. Zakládáme si na tom, aby se přesně<br />tak cítili naši klienti. Díky široké síti profesionálů se zkušenostmi z marketingových a PR<br />agentur, grafických studií, IT oblasti i mediálních společností dokážeme nabídnout komplexní<br />služby. Nejsme PR agentura, která si rozhodla změnit přízvisko na „komunikační“, ani<br />reklamní agentura věřící, že velký rozpočet na reklamu znamená automaticky lepší výsledky.<br />Chápeme dynamiku současného marketingu a nelpíme na „tradičních“ postupech, které<br />v dnešní době často selhávají. Bereme klienty jako partnery, kterým pomáháme</p>'
+    keywords: ''
+    description: ''
+    lang: cs
+  StrankyTranslation_3_cs:
+    Stranky: Stranky_3
+    title: Partneři
+    str_title: null
+    perex: ''
+    popis: '<p>Vymenna stranka pro odkazy</p>'
+    keywords: ''
+    description: ''
+    lang: cs
+  StrankyTranslation_4_cs:
+    Stranky: Stranky_4
+    title: klienti
+    str_title: ''
+    perex: ''
+    popis: ''
+    keywords: Keyword
+    description: Description
+    lang: cs
+  StrankyTranslation_4_de:
+    Stranky: Stranky_4
+    title: ''
+    str_title: ''
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: de
+  StrankyTranslation_4_en:
+    Stranky: Stranky_4
+    title: clients
+    str_title: ''
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: en
+  StrankyTranslation_4_it:
+    Stranky: Stranky_4
+    title: clienti
+    str_title: ''
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: it
+  StrankyTranslation_5_cs:
+    Stranky: Stranky_5
+    title: služby
+    str_title: Služby
+    perex: ''
+    popis: ''
+    keywords: sluzby
+    description: sluzby
+    lang: cs
+  StrankyTranslation_5_de:
+    Stranky: Stranky_5
+    title: diensteilungen
+    str_title: Diensteilungen
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: de
+  StrankyTranslation_5_en:
+    Stranky: Stranky_5
+    title: services
+    str_title: Services
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: en
+  StrankyTranslation_5_it:
+    Stranky: Stranky_5
+    title: servizi
+    str_title: Servizi
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: it
+  StrankyTranslation_6_cs:
+    Stranky: Stranky_6
+    title: kontakt
+    str_title: Kontakt
+    perex: ''
+    popis: ''
+    keywords: kontakt
+    description: kontakt
+    lang: cs
+  StrankyTranslation_6_de:
+    Stranky: Stranky_6
+    title: kontakt
+    str_title: Kontakt
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: de
+  StrankyTranslation_6_en:
+    Stranky: Stranky_6
+    title: Contact
+    str_title: Contact
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: en
+  StrankyTranslation_6_it:
+    Stranky: Stranky_6
+    title: contatto
+    str_title: Contatto
+    perex: ''
+    popis: ''
+    keywords: ''
+    description: ''
+    lang: it
+SettingTranslation:
+  SettingTranslation_1_cs:
+    Setting: Setting_1
+    homepage: home
+    sluzby: služby
+    klienti: klienti
+    kontakt: kontakt
+    animace: /uploads//animace_senza_uvod2.swf
+    partneri: partneři
+    kon_form: 'Kontatní formulář'
+    zadej_pop: 'Zadejte svůj e-mail'
+    poptavka: 'Předmět poptávky'
+    odeslat: Odeslat
+    on_line_pop: 'online poptávka'
+    mno_dal: 'a mnoho dalšího'
+    email: info@senzadubbio.cz
+    tel: '+420 222 766 191'
+    mobil: ''
+    ulice: 'Podnádražní 910/10'
+    mesto: '190 00 Praha'
+    stat: 'Česká republika'
+    lang: cs
+  SettingTranslation_1_de:
+    Setting: Setting_1
+    homepage: home
+    sluzby: diensteilungen
+    klienti: klienten
+    kontakt: kontakt
+    animace: ''
+    partneri: partners
+    kon_form: Kontaktformular
+    zadej_pop: 'Ihre E-Mail-Adresse'
+    poptavka: Betreff
+    odeslat: Abschicken
+    on_line_pop: 'online nachfrage'
+    mno_dal: 'und vieles mehr'
+    email: info@senzadubbio.cz
+    tel: '+420 222 766 191'
+    mobil: ''
+    ulice: 'Podnadrazni 910/10'
+    mesto: '190 00 Prag'
+    stat: 'Tschechische Republik'
+    lang: de
+  SettingTranslation_1_en:
+    Setting: Setting_1
+    homepage: home
+    sluzby: services
+    klienti: clients
+    kontakt: contacts
+    animace: ''
+    partneri: partners
+    kon_form: 'Contact Form'
+    zadej_pop: 'Insert your e-mail'
+    poptavka: Subject
+    odeslat: Send
+    on_line_pop: 'online enquiry'
+    mno_dal: 'and much more'
+    email: info@senzadubbio.cz
+    tel: '+420 222 766 191'
+    mobil: ''
+    ulice: 'Podnadrazni 910/10'
+    mesto: '190 00 Prague'
+    stat: 'Czech republic'
+    lang: en
+  SettingTranslation_1_it:
+    Setting: Setting_1
+    homepage: home
+    sluzby: servizi
+    klienti: clienti
+    kontakt: contatto
+    animace: ''
+    partneri: partners
+    kon_form: 'Modulo di contatto'
+    zadej_pop: 'Inserisci la tua e-mail'
+    poptavka: Oggetto
+    odeslat: Invia
+    on_line_pop: 'domanda online'
+    mno_dal: 'e molto altro'
+    email: info@senzadubbio.cz
+    tel: '+420 222 766 191'
+    mobil: ''
+    ulice: 'Podnadrazni 910/10'
+    mesto: '190 00 Praga'
+    stat: 'Repubblica Ceca'
+    lang: it

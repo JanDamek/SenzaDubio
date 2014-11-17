@@ -1,0 +1,129 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage_cs:
+  url:   /cs
+  param: { module: homepage, action: index, page: homepage, sf_culture: cs}
+homepage_it:
+  url:   /it
+  param: { module: homepage, action: index, page: homepage, sf_culture: it}
+homepage_de:
+  url:   /de
+  param: { module: homepage, action: index, page: homepage, sf_culture: de}
+homepage_en:
+  url:   /en
+  param: { module: homepage, action: index, page: homepage, sf_culture: en}
+
+homepage_cs1:
+  url:   /cs/
+  param: { module: homepage, action: index, page: homepage, sf_culture: cs}
+homepage_it1:
+  url:   /it/
+  param: { module: homepage, action: index, page: homepage, sf_culture: it}
+homepage_de1:
+  url:   /de/
+  param: { module: homepage, action: index, page: homepage, sf_culture: de}
+homepage_en1:
+  url:   /en/
+  param: { module: homepage, action: index, page: homepage, sf_culture: en}
+
+hp:
+  url:   /
+  param: { module: homepage, action: index, page: homepage, sf_culture: cs}
+ 
+odkazy_cs:
+  url:   /:sf_culture/odkazy.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: homepage, action: index, page: odkazy, sf_culture: cs }
+odkazy_it:
+  url:   /:sf_culture/links.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: homepage, action: index, page: odkazy, sf_culture: it }
+odkazy_de:
+  url:   /:sf_culture/links.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: homepage, action: index, page: odkazy, sf_culture: de }
+odkazy_en:
+  url:   /:sf_culture/links.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: homepage, action: index, page: odkazy, sf_culture: en }
+
+sluzby_cs:
+  url:   /:sf_culture/sluzby.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: sluzby, action: index, sf_culture: cs }
+sluzby_it:
+  url:   /:sf_culture/servizi.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: sluzby, action: index, sf_culture: it }
+sluzby_de:
+  url:   /:sf_culture/dienstleistungen.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: sluzby, action: index, sf_culture: de }
+sluzby_en:
+  url:   /:sf_culture/services.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: sluzby, action: index, sf_culture: en }
+  
+klienti_cs:
+  url:   /:sf_culture/klienti.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: klienti, action: index, sf_culture: cs }
+klienti_it:
+  url:   /:sf_culture/clienti.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: klienti, action: index, sf_culture: it }
+klienti_de:
+  url:   /:sf_culture/clients.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: klienti, action: index, sf_culture: de }
+klienti_en:
+  url:   /:sf_culture/clients.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: klienti, action: index, sf_culture: en }
+  
+kontakt_cs:
+  url:   /:sf_culture/kontakt.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: cs }
+kontakt_it:
+  url:   /:sf_culture/contattare.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: it }
+kontakt_de:
+  url:   /:sf_culture/kontakt.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: de }
+kontakt_en:
+  url:   /:sf_culture/contact.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: en }
+  
+poptavka_cs:
+  url:   /:sf_culture/kontakt/:slug.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: cs }
+poptavka_it:
+  url:   /:sf_culture/contattare/:slug.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: it }
+poptavka_de:
+  url:   /:sf_culture/kontakt/:slug.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: de }
+poptavka_en:
+  url:   /:sf_culture/contact/:slug.html
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { module: kontakt, action: index, sf_culture: en }
+  
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:sf_culture/:module
+  requirements: { sf_culture: (?:cs|it|de|en) }
+  param: { action: index }
+
+default:
+  url:   /:sf_culture/:module/:action/*
+  requirements: { sf_culture: (?:cs|it|de|en) }

@@ -1,0 +1,73 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           setting
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             true
+    singular:              ~
+    plural:                ~
+    route_prefix:          setting
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        SiteName:
+          label: Název stránky
+        email:
+          label: e-mail
+        tel:
+          label: Telefon
+        mobil:
+          label: Mobilní číslo
+        pracovni_doba:
+          label: Pracovní doba
+        ulice:
+          label: Ulice
+        mesto:
+          label: Město
+        web_adr:
+          label: internetová adresa
+        ga_code:
+          label: Google analytic kód
+        ga_overeni:
+          label: Google oveření
+        homepage:
+          label: Menu domací stránky
+        sluzby:
+          label: Menu služby
+        klienti:
+          label: Menu klienti
+        kontakt:
+          label: Menu kontakt
+        animace:
+          label: Animace na HP
+        partneri :
+          label: Partněři v patičce
+        kon_form:
+          label: Kontaktní formulář
+        zadej_pop:
+          label: Email ve formuláři
+        poptavka:
+          label: Předmět ver formuláři
+        odeslat:
+          label: Tlačítko odeslat
+        on_line_pop:
+          label: Tlačítko on line poptávky
+        mno_dal:
+          label: a mnoho dlašího
+      list:    
+        display: [=SiteName, mesto]
+      filter:
+        display: [SiteName, pracovni_doba,web_adr,ga_code,google_overeni]
+      form:    ~
+      edit:    
+        display:
+          "Základní data": [SiteName, pracovni_doba,web_adr,ga_code,google_overeni]
+          "Česky": [cs]
+          Anglicky: [en]
+          Německy : [de]
+          Italsky: [it]
+      new:     ~

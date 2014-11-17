@@ -1,0 +1,4 @@
+## YAML Template.
+---
+all:
+  default_culture:     cs_CZ
